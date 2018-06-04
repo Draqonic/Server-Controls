@@ -1,0 +1,3 @@
+WebRequest {
+	method: WebRequest.Delete
+}
