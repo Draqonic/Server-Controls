@@ -5,9 +5,9 @@ Object {
 
 	onCompleted: {
 		let web
-		if (this.parent instanceof _globals.Server.WebServer.WebServer)
+		if (this.parent instanceof _globals.ServerControls.WebServer.WebServer)
 			web = this.parent.web
-		else if (this.parent.parent instanceof _globals.Server.WebServer.WebServer)
+		else if (this.parent.parent instanceof _globals.ServerControls.WebServer.WebServer)
 			web = this.parent.parent.web
 		else {
 			console.error("Error load web request: no web server avaible")
